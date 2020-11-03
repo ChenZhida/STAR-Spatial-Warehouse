@@ -77,7 +77,11 @@ public class Constants {
             "month topic", "week topic", "day topic", "hour topic",
             "country month topic", "country week topic", "country day topic", "country hour topic",
             "city month topic", "city week topic", "city day topic", "city hour topic", "none"};
-    public static final String[] TEXT_TOPICS = {"sport", "music", "movie", "it", "nba", "football", "nfl", "baseball"};
+    public static final String[] TEXT_TOPICS = {"sport", "music", "movie", "it", "nba", "football", "nfl", "baseball", "politics", "stocks", "game", "research",
+            "cinema", "technology", "code", "learning", "machine learning", "e-commerce", "finance", "restaurant", "eating", "food", "dinner", "lunch", "breakfast",
+            "supper", "tennis", "tennis racket", "table tennis", "badminton", "ball", "shopping mall", "paper", "university", "high school", "middle school", "primary school",
+            "xbox", "ps4", "ps5", "xbox one", "nintendo switch", "ea", "ubisoft", "activision bilizzard", "nintendo", "sony", "phone", "us election"};
+
     public static final String ROOT = "city hour topic";
 
     public static final int SNAPSHOT_QUERY = 0;
