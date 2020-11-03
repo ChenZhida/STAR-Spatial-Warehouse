@@ -18,7 +18,6 @@ import xxx.project.worker.index.Index;
 import xxx.project.worker.index.grid.GridCubes;
 import xxx.project.worker.index.naive.NaiveIndex;
 import xxx.project.worker.index.quadtree.QuadTreeCache;
-import xxx.project.worker.index.quadtree.QuadTreeCubes;
 
 public class Main {
     public static Properties configProperties(String confFilePath) throws IOException {
@@ -109,7 +108,7 @@ public class Main {
         if (workerIndex.equals(Constants.NAIVE_WORKER)) {
             index = new NaiveIndex();
         } else if (workerIndex.equals(Constants.QUAD_TREE_WORKER)) {
-            index = new QuadTreeCubes();
+            index = new QuadTreeCache();
             index.readMaterializedCubesFromFile(cubeFilePath);
         } else if (workerIndex.equals(Constants.GRID_WORKER)) {
             index = new GridCubes();
